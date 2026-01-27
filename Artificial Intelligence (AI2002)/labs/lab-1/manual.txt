@@ -1,0 +1,45 @@
+Read Manual then attempt this exercise.
+
+Submit only one ipynb file, named as your complete roll number. It must have cells of all 3 tasks, and its outputs. Labelled with task number. 
+
+
+Complete all tasks given below
+
+1) Reverse String (5 Marks)
+Write a function that reverses a string. The input string is given as an array of
+characters. You can use Python list to create the array of characters. Do not allocate
+extra space for another array, you must do this reversal by modifying the input array
+in-place with O(1) extra memory.
+Example 1:
+Input: ["h","e","l","l","o"]
+Output: ["o","l","l","e","h"]
+Example 2:
+Input: ["H","a","n","n","a","h"]
+Output: ["h","a","n","n","a","H"]
+
+
+2) Valid Palindrome (10 Marks)
+Given a strings , determine if it is a palindrome, considering only alphanumeric
+characters and ignoring cases. Refer to this link to learn about Python string functions
+which might come handy in this task.
+Example 1:
+Input: s = "A man, a plan, a canal: Panama"
+Output: true
+Explanation: "amanaplanacanalpanama" is a palindrome.
+Example 2:
+Input: s = "race a car"
+Output: false
+Explanation: "raceacar" is not a palindrome.
+
+3) Sqrt(x) without any built-in methods (10 Marks)
+Given a non-negative integer x, compute and return the square root of x.
+Since the return type is an integer, the decimal digits are truncated, and only the
+integer part of the result is returned.
+Example 1:
+Input: x = 4
+Output: 2
+Example 2:
+Input: x = 8
+Output: 2
+Explanation: The square root of 8 is 2.82842..., and since the decimal part is truncated,
+2 is returned.
