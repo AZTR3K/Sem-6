@@ -1,0 +1,57 @@
+# --- Python Basics ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Distribution / Build ---
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- uv / Virtual Environments ---
+# uv defaults to creating a .venv directory
+.venv/
+venv/
+env/
+ENV/
+
+# Note: Keep 'uv.lock' and 'pyproject.toml' committed to git
+# to ensure reproducible builds for collaborators.
+
+# --- Jupyter Notebooks (Data Science) ---
+# Checkpoints created by Jupyter/Lab
+.ipynb_checkpoints/
+
+# --- VS Code ---
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# --- Neovim / Vim ---
+# Swap files
+[._]*.swo
+[._]*.swp
+# Session files
+Session.vim
+# Persistent undo
+.undodir/
+
+# --- Linux / OS Specific ---
+.DS_Store
+Thumbs.db
+requirements
